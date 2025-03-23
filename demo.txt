@@ -1,0 +1,31 @@
+Git Configuration on a New System
+Run these two commands to set up your identity:
+
+bash
+Copy
+Edit
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+✅ This sets up your Git identity for commits.
+
+Check Your Configuration
+After setting up, verify it with:
+
+bash
+Copy
+Edit
+git config --global --list
+✅ This shows your name and email to confirm the setup.
+
+After Configuring, Follow the Git Push Steps
+Once Git is configured, use the steps I shared earlier to:
+
+Initialize Git (git init)
+
+Add Files (git add .)
+
+Commit (git commit -m "message")
+
+Connect GitHub (git remote add origin ...)
+
+Push (git push -u origin main)

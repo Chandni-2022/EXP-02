@@ -1,0 +1,32 @@
+> Basic Git Commands:
+1. ** git init **: Initialize a new Git repository in the current directory.
+2. ** git clone [url] **: Clone a repository from a remote URL (like GitHub) to your local
+machine.
+3. ** git add [file] **: Add changes in a specific file to the staging area.
+4. ** git add .**: Add all changes in the current directory and its subdirectories to the
+staging area.
+5. ** git commit -m "message" **: Commit staged changes with a descriptive message.
+6. ** git status **: View the status of changes (untracked, modified, staged) in your
+repository.
+7. ** git diff **: Show changes between commits, commit and working tree, etc.
+8. ** git log **: View commit history.
+9. ** git branch **: List, create, or delete branches.
+10. ** git checkout [branch] **: Switch to a different branch.
+11. ** git merge [branch] **: Merge a branch into the current branch.
+12. ** git pull **: Fetch from and integrate with another repository or a local branch.
+13. ** git push **: Update remote references and associated objects.
+
+
+> GitHub Commands:
+1. ** git remote add origin [url] **: Add a remote repository URL (typically on GitHub)
+as the origin.
+2. ** git remote -v **: List all remote repositories along with their URLs.
+3. ** git push -u origin [branch] **: Push the local branch to the remote repository
+(GitHub), setting the upstream branch.
+4. ** git pull origin [branch] **: Pull changes from a remote repository into the current
+branch.
+5. ** git clone [url] **: Clone a repository from GitHub to your local machine.
+6. ** git fork **: Create a personal copy of someone else's repository on GitHub.
+7. ** git pull-request **: Open a pull request on GitHub to propose changes and start a
+code review process.
+8. ** git merge **: Merge changes from a pull request into the main branch.
